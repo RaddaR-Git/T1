@@ -4,7 +4,7 @@
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "OSCAR.AVILAPER",
     "contributors": [],
-    "dependencies": {}
+    "dependencies": {},
     "scripts": {
         "start": "node main.js"
       },
