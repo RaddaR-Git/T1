@@ -5,4 +5,8 @@
     "author": "OSCAR.AVILAPER",
     "contributors": [],
     "dependencies": {}
+    "scripts": {
+        "start": "node main.js"
+      },
+      "main": "main.js"
 }
