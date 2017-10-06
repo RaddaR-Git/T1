@@ -1,8 +1,10 @@
 {
     "name": "SimpleApp",
     "main": "main.js",
+    "dependencies": {
+        "express": "^4.13.3"
+    },
     "scripts": {
         "start": "node main.js"
-      }
-      
+    }
 }

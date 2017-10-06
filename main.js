@@ -5,16 +5,16 @@
  */
 
 
+var express = require('express')
+var app = express()
 
-var http = require('http');
-var server = http.createServer();
+app.set('port', (process.env.PORT || 5000))
+app.use(express.static(__dirname + '/public'))
 
+app.get('/', function(request, response) {
+  response.send('Hello World!')
+})
 
-
-function control(petic, resp) {
-    resp.writeHead(200, {'content-type': 'text/plain'});
-    resp.write('Hola, Mundo!');
-    resp.end();
-}
-server.on('request', control);
-server.listen(80);
+app.listen(app.get('port'), function() {
+  console.log("Node app is running at localhost:" + app.get('port'))
+})
