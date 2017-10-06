@@ -1,7 +1,8 @@
 {
     "name": "SimpleApp",
+    "main": "main.js",
     "scripts": {
         "start": "node main.js"
-      },
-      "main": "main.js"
+      }
+      
 }
